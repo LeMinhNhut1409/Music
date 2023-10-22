@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nhạc Cách Mạng</title>
+  <link rel="stylesheet" href="css/list.css">
+  <!-- <link href="css/app.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="images/nhạc.jpeg" rel="shortcut icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    />
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</head>
+<body>
+<header class="content">
+    <div class="flex h-space  container">
+        <ul class="menu flex ">
+            <li class="sub">
+                <a href="#">Bài Hát</a>
+                <ul class="menu-x subcontent">
+                    <li><a href="https://leminhnhut1409.github.io/nhactre/">Nhạc Trẻ</a></li>
+                    <li><a href="https://leminhnhut1409.github.io/nhactrutinh/">Trữ Tình</a></li>
+                    <li><a href="https://leminhnhut1409.github.io/nhaccachmang/">Cách Mạng</a></li>
+                </ul>
+            </li>
+            <li class="sub">
+                <a href="https://leminhnhut1409.github.io/tintuc/">Tin Tức Âm Nhạc</a>
+            </li>
+        </ul>
+        <div class="menu flex ">
+            <input type="text" name="" id="" placeholder="Tìm kiếm ..." class="search"/>
+            <a href="#"><ion-icon name="search-outline" class="search-outline"></ion-icon></a>
+            <a href="https://leminhnhut1409.github.io/trangchu/"><ion-icon name="home" class="home"></ion-icon></a>
+            
+        </div>
+        <div  class="container">
+            <ul class="menu flex">
+                <li><a href="https://leminhnhut1409.github.io/dangnhap/">Đăng Nhập</a></li>
+                <li><a href=" https://leminhnhut1409.github.io/dangky/">Đăng Ký</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i class="material-icons">expand_more</i>
+            <span>Now Playing</span>
+            <i class="material-icons">more_horiz</i>
+        </div>
+
+        <div class="img-area">
+            <img src="" alt="">
+        </div>
+
+        <div class="song-details">
+            <p class="name"></p>
+            <p class="artist"></p>
+        </div>
+
+        <div class="progress-area">
+            <div class="progress-bar">
+                <audio src="" id="main-audio"></audio>
+            </div>
+            <div class="song-timer">
+                <span class="current-time">
+                    0:00
+                </span>
+                <span class="max-duration">
+                    0:00
+                </span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+            <i id="prev" class="material-icons" >skip_previous</i>
+            <div class="play-pause">
+                <i class="material-icons play" >play_arrow</i>
+            </div>
+            <i id="next" class="material-icons" >skip_next</i>
+            <i id="more-music" class="material-icons" >queue_music</i>
+        </div>
+
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class="list material-icons">queue_music</i>
+                    <span>Music List</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <ul>
+            
+            </ul>
+        </div>
+    </div>
+</nav>
+<footer> <span class="move"> LÊ MINH NHỰT & NGUYỄN HUỲNH TƯỜNG VI &copy; 2022</span>
+
+</footer>
+    <script src="js/index3.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
